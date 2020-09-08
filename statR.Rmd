@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 
 ```{r}
 
-rmarkdown::render("testR.Rmd", params = list(
+rmarkdown::render("testR.md", params = list(
   year = 2020,
   printcode = T
 ))
