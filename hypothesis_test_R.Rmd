@@ -1,0 +1,20 @@
+---
+title: "Hypothesis Testing with R"
+author: "Yihun Zeleke"
+date: "9/8/2020"
+output: 
+  html_document: 
+    code_folding: hide
+    highlight: zenburn
+    theme: flatly
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+    

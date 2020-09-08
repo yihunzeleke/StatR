@@ -1,8 +1,8 @@
 ---
-title: "Hypotesis Testing"
+title: "Basic Statistics with R"
+date: 
 output: 
   html_document: 
-    keep_md: TRUE
     code_folding: hide
     highlight: zenburn
     theme: flatly
@@ -12,7 +12,13 @@ output:
       smooth_scroll: false
 ---
 
-```{r setup, include=T}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+    
 ```
 ### Desriptive Statistics 
 Organizing, summarizing and presentind the data, mean, median, mode..
@@ -242,11 +248,3 @@ sample_sd = 0.25 / sqrt(35)
 pnorm(2.1, mean = 2, sd = sample_sd, lower.tail = FALSE)
 
 ```
-
-  - The percentage is less than 1% that the chip packet will be morethan 2.1 gram.
-A certain exprerimental drug claims a cure rate of higher than 75% for males with protaste cancer. Describe both the hypothesis.  
-
-    - H0: The cure rate is less thab 75%
-    - H1: The cure rate is higher than 75%
-    
-
