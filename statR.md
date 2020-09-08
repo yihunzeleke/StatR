@@ -16,7 +16,7 @@ rmarkdown::render("testR.Rmd", params = list(
     ##   |                                                                              |...                                                                   |   5%
     ## label: setup (with options) 
     ## List of 1
-    ##  $ include: logi FALSE
+    ##  $ include: symbol T
     ## 
     ##   |                                                                              |.....                                                                 |   7%
     ##   ordinary text without R code
@@ -117,4 +117,4 @@ rmarkdown::render("testR.Rmd", params = list(
     ##   ordinary text without R code
     ## 
     ## 
-    ## "C:/Users/yihun/ANACON~1/Scripts/pandoc" +RTS -K512m -RTS testR.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output testR.html --email-obfuscation none --self-contained --standalone --section-divs --table-of-contents --toc-depth 3 --variable toc_float=1 --variable toc_selectors=h1,h2,h3 --variable toc_print=1 --template "C:\Users\yihun\Documents\R\win-library\4.0\rmarkdown\rmd\h\default.html" --highlight-style zenburn --variable "theme:flatly" --include-in-header "C:\Users\yihun\AppData\Local\Temp\RtmpoJOsb7\rmarkdown-str4d881bb26ea8.html" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --lua-filter "C:/Users/yihun/Documents/R/win-library/4.0/rmarkdown/rmd/lua/pagebreak.lua" --lua-filter "C:/Users/yihun/Documents/R/win-library/4.0/rmarkdown/rmd/lua/latex-div.lua" --variable code_folding=hide --variable source_embed=testR.Rmd --include-after-body "C:\Users\yihun\AppData\Local\Temp\RtmpoJOsb7\file4d882a0827a5.html" --variable code_menu=1 --variable kable-scroll=1
+    ## "C:/Users/yihun/ANACON~1/Scripts/pandoc" +RTS -K512m -RTS testR.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output testR.html --email-obfuscation none --self-contained --standalone --section-divs --table-of-contents --toc-depth 3 --variable toc_float=1 --variable toc_selectors=h1,h2,h3 --variable toc_print=1 --template "C:\Users\yihun\Documents\R\win-library\4.0\rmarkdown\rmd\h\default.html" --highlight-style zenburn --variable "theme:flatly" --include-in-header "C:\Users\yihun\AppData\Local\Temp\RtmpgF7EaB\rmarkdown-str1ca42da3499f.html" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --lua-filter "C:/Users/yihun/Documents/R/win-library/4.0/rmarkdown/rmd/lua/pagebreak.lua" --lua-filter "C:/Users/yihun/Documents/R/win-library/4.0/rmarkdown/rmd/lua/latex-div.lua" --variable code_folding=hide --variable code_menu=1

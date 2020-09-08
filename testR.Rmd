@@ -1,7 +1,7 @@
 ---
 title: "Hypotesis Testing"
 output: 
-  html_notebook: 
+  html_document: 
     code_folding: hide
     highlight: zenburn
     theme: flatly
@@ -11,7 +11,7 @@ output:
       smooth_scroll: false
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=T}
 ```
 ### Desriptive Statistics 
 Organizing, summarizing and presentind the data, mean, median, mode..
