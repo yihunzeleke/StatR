@@ -351,3 +351,13 @@ qnorm(0.05, sd= 1, mean = 6, lower.tail = FALSE)
     ## [1] 7.644854
 
   - The largest male head breadth will be 7.64 inches.
+
+<!-- end list -->
+
+``` r
+library(ggplot2)
+ggplot(mtcars, aes(mpg, cyl, size = drat, fill = carb))+
+  geom_point()
+```
+
+![](statR_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->

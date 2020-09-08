@@ -237,7 +237,13 @@ What is the largest size male head breadth that your new helmet will fit?
 qnorm(0.05, sd= 1, mean = 6, lower.tail = FALSE)
 ```
   - The largest male head breadth will be 7.64 inches.
-  
+
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(mpg, cyl, size = drat, fill = carb))+
+  geom_point()
+```
+
   
   
   
