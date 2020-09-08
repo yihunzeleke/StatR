@@ -352,12 +352,17 @@ qnorm(0.05, sd= 1, mean = 6, lower.tail = FALSE)
 
   - The largest male head breadth will be 7.64 inches.
 
-<!-- end list -->
+An icecream campany claims that maximum saturated fat content in chip
+packet is 2 gram with sd of 0.25. At test on a sample of 35 packets is
+done. How likely is that the mean saturated fat of the 35 packets would
+be more than 2.1 gram?
 
 ``` r
-library(ggplot2)
-ggplot(mtcars, aes(mpg, cyl, size = drat, fill = carb))+
-  geom_point()
+sample_sd = 0.25 / sqrt(35)
+pnorm(2.1, mean = 2, sd = sample_sd, lower.tail = FALSE)
 ```
 
-![](statR_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+    ## [1] 0.008980239
+
+  - The percentage is less than 1% that the chip packet will be morethan
+    2.1 gram.
