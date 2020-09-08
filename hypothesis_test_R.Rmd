@@ -14,7 +14,34 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE)
 ```
 
-    
+## Steps of Hypothesis Testing 
+
+Setup hypothesis and determine of significance  
+
+  - setup null hypothesis from the population mean  
+  - setup alternative hypothesis  
+  - setup appropriate significance level, alpha 
+
+Determine critical value(zalpha) of the test on alpha(level of significance).  
+
+ - if |Z| < Zalpha, Z is not significant and the null hypothesis may be accepted. 
+ - if |Z| >= Zalpha, Z is significant and the null hypothesis is rejected.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
